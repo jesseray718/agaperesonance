@@ -11,5 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
+chore/uplift-v4-20260828-053524
       - uses: actions/checkout@v4
+
+      - uses: actions/checkout@v7
+ master
       - run: echo "Replace with actual OpenRabbitAI invocation"
